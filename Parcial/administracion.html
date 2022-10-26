@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <a href="./index.html">
+                <img class="logo" src="./imgs/Logo.png">
+            </a>
+            <nav class="nav">
+                <ul class="lista_enlaces">
+                    <li>
+                        <a href="" class="items_nav">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="items_nav">Anuncios</a>
+                    </li>
+                    <li>
+                        <a href="" class="items_nav">Blog</a>
+                    </li>
+                    <li>
+                        <a href="" class="items_nav">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</header>
+ <div class="container_banner">
+    <img src="./imgs/banner.png" alt="">
+ </div>
+
+ <div class="container_alta">
+    <legend>Informacion del anuncio</legend>
+    <div class="container_form">
+        <form class="formulario">
+          <label value></labelv>
+          <div class="container_input">
+            <label for="txtTitulo">Titulo</label>
+            <input placeholder="Ingrese un titulo" name="titulo"type="text">
+            <small></small>
+          </div>
+          <label class="lbl_transacciones">Transaccion</label>
+           <div class="container_transacciones">
+            <label for="radioVenta">Venta</label>
+            <input  type="radio" name="transaccion" value="Venta" id="radioTransaccion">
+            <label for="radioVenta">Alquiler</label>
+            <input type="radio" name="transaccion" value="Alquiler" id="radioTransaccion">
+            <small></small>
+          </div>
+           <div class="container_input">
+            <label for="txtDescripcion">Descripcion</label>
+            <input placeholder="Descripcion" name="descripcion" type="text">
+            <small></small>
+          </div>
+          <div class="container_input">
+            <label for="precio">Precio</label>
+            <input placeholder="Precio" name="precio" type="number"  >   
+            <small></small>
+          </div>
+          <div class="container_input_final">
+            <img src="./imgs/puertita.png" alt="">
+            <input  id="txtPuertas" placeholder="Puertas" name="puertas"type="number"  >   
+            <small></small>
+            <img src="./imgs/kms.png" alt="">
+            <input id="txtKhms" placeholder="Khms" name="khms" type="number"  >   
+            <small></small>
+            <img src="./imgs/potencia.png" alt="">
+            <input id="txtPotencia" placeholder="Potencia" name="potencia" type="number"  >   
+            <small></small>
+          </div>
+          <small class="msjFaltanDatos"></small>
+          <button id="btnAgregar" type="submit"> <img src="./imgs/guardar.png" alt=""> Agregar</button>
+        <!-- <input  id="btnAgregar" value="Agregar" type="submit"> -->
+      
+        </form>
+        
+    </div>
+</div>
+
+<img class="spinner"src="./imgs/rueda.png" alt="">
+
+<div class="container_manejador">
+    <div  class="container_botones">
+      <input class="save" value="Modificar" type="button">
+      <input class="delete" value="Eliminar" type="button">
+      <input class="cancel" value="Cancelar" type="button">
+    </div>
+    <div class="container_tabla">
+      
+
+    </div>
+</div>
+
+<script src="./js/administracion.js" type="module" ></script>
+</body>
+<footer>
+    <div class="container_pie">
+        <nav class="nav">
+            <ul class="lista_enlaces_pie">
+                <li>
+                    <a href="" class="items_nav_pie">Nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html" class="items_nav">Anuncios</a>
+                </li>
+                <li>
+                    <a href="" class="items_nav_pie">Blog</a>
+                </li>
+                <li>
+                    <a href="" class="items_nav_pie">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <p>Todos los derechos reservados</p>
+    </div>
+</footer>
+</html>

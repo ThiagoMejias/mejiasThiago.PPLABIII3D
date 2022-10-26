@@ -1,0 +1,260 @@
+
+*{
+   margin: 0px;
+}
+.container_header{
+   width: 100%;
+   display: flex;
+   justify-content:space-between;
+   background-color: rgb(23, 23, 209);
+   align-items: center;
+   height: 100px;
+}
+
+.container_header img{
+   height: 50px;
+}
+.items_nav {
+   display: inline-block;
+   justify-content: right;
+   font-size: 15;
+   color: white;
+   text-decoration: none;
+}
+
+.lista_enlaces {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.container_banner{
+   margin-top: 50px;
+}
+
+.container_banner img{
+   width: 100%;
+   height: 150px
+}
+
+
+
+
+/* 
+form */
+
+
+.container_alta{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.container_form{
+display: flex;
+margin: 0px auto;
+align-items: center;
+align-content: center;
+width: 100%;
+margin-bottom:50px ;
+}
+.container_form p{
+   font-size: 20px ;
+  }
+.formulario
+{
+   margin: 0px auto;
+   border: solid 2px;
+   padding:  3px 40px;
+   width:40%;
+}
+input {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+.container_input
+{
+   display: flex;
+   flex-direction: column;
+   padding: 2px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   width: 100%;
+   font-size: 20px;
+}
+.lbl_transacciones{
+font-size: 20px;
+}
+
+ .container_transacciones{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around	;
+   margin-top:30px;
+ }
+
+ .container_input_final{
+   display: flex;
+   justify-content: space-around;
+ }
+ .container_input_final input{
+   width: 20%;
+ }
+ .container_input_final img{
+   width: 6%;
+ }
+
+#btnAgregar {
+   width: 20%;
+   background-color: #4CAF50;
+   color: white;
+   margin: 8px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ #btnAgregar:hover {
+   background-color: #45a049;
+ }
+
+ .spinner {
+   margin-top: 100px;
+   border: 4px solid rgba(0, 0, 0, 0.1);
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   border-left-color: rgb(98, 183, 207);
+   margin: 0px auto;
+   animation: spin 1s ease infinite;
+ }
+ 
+ @keyframes spin {
+   0% {
+     transform: rotate(0deg);
+   }
+ 
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+ .container_manejador{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+
+ .container_botones{
+   display: flex;
+   align-content: center;
+   width:40%;
+   margin: 0px auto; 
+   margin-bottom:50px ;
+   
+ }
+
+ .container_botones input[type=button]{
+   width: 100%;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .save{
+   background-color: #4CAF50 ;
+ }
+ .delete{
+   background-color: orangered !important;
+ }
+ .cancel{
+   background-color: blue !important;
+
+ }
+
+/*tabla */
+ .container_tabla{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+table {
+    width: 100%;
+ 
+    border: 1px solid #000;
+ }
+ th, td {
+    text-align: left;
+    border: 1px solid #000;
+    padding: 0.3em;
+ }
+ tr:hover{
+  background-color: rgb(98, 183, 207);
+  cursor: pointer;
+ }
+
+ th {
+    background: rgb(98, 183, 207);
+ }
+
+
+
+
+
+
+
+
+
+
+ /* validaciones */
+ .inputError {
+   border: 1px solid red;
+   box-shadow: 0 0 3px red;
+}
+
+.inputOk {
+   border: 1px solid green;
+   box-shadow: 0 0 3px green;
+}
+
+.danger {
+   color: red;
+   font-weight: bold;
+}
+
+small {
+   display: block;
+}
+
+
+
+.container_pie{
+   display: flex;
+   justify-items: center;
+   justify-content: space-between;
+   width: 100%;
+   background-color: blue;
+   height: 50px;
+   align-items: center;
+
+}
+.lista_enlaces_pie{
+   list-style: none;
+   display: flex;
+   
+   justify-content:space-around;
+}
+.items_nav_pie{
+   color: white;
+   margin: 10px;
+}

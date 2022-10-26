@@ -1,0 +1,98 @@
+body{
+    background-image: url(../imgs/autoos.jpg);
+    background-size: cover;
+}
+
+
+.div_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .nav {
+display: flex;
+width: 100%;
+}
+
+.lista_enlaces {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.items_nav {
+    display: inline-block;
+    font-size: 20;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.items_nav:hover {
+
+    transform: scale(1.3);
+    transition: all 0.4s;
+    color: white;
+}
+
+.container-nav {
+    display: flex;
+    width: 100%;
+} 
+
+.container_body h1{
+    color: white;
+}
+.container_body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container_mensaje{
+    display: flex;
+    color: white;
+    margin: 0px auto;
+}
+
+
+.container_anuncios{
+    background-color: white;
+    width: 40%;
+    
+}
+.container_obj{
+    padding: 30px;
+}
+.container_anuncios h3{
+   color: black;
+   font-size: 30px;
+}
+.container_anuncios h6{
+    color: black;
+    font-size: 20px;
+ }
+ .container_anuncios p{
+    color: green;
+    font-size: 15x;
+ }
+
+ .container_extras{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .container_anuncios button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: aqua;
+    height: 50px;
+ }
+
